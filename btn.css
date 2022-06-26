@@ -1,0 +1,48 @@
+.btn{
+    padding: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(110, 7, 28);
+    color: azure;
+    border: white;
+    border-radius: 50%;
+    display: flexbox;
+    transition-duration: color 7s;
+}
+.btn:hover{
+    background: rgb(225, 107, 40);
+    color: rgb(20, 15, 15);
+    box-shadow: 3px 4px 3px 2px rgb(219, 159, 137);
+}
+body{
+    background-color: rgb(194, 193, 193);
+    margin: 10% 0 0 40%;
+} 
+.prev{
+    background-color: rgb(116, 116, 116);
+    color: aliceblue;
+    padding: 8px 19px;
+    text-align: center;
+    display: inline-block;
+    width: 59px;
+}
+.next{
+    background-color: rgb(14, 140, 83);
+    color: azure;
+    padding: 8px 19px;
+    text-align: center;
+    display: inline-block;
+}
+.prev:hover{
+    background-color: rgb(115, 165, 236);
+    color: black;
+}
+.next:hover{
+    background-color: rgb(115, 165, 236);
+    color: black;
+} 
+.round{
+    border-radius: 60%;
+}
